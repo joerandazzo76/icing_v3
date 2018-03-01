@@ -1,0 +1,17 @@
+{
+  "name": "joera/icing",
+  "require": {
+
+    "vlucas/phpdotenv": "^2.4",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "files": [
+      "lib/functions.php",
+      "lib/config.php"
+    ],
+    "classmap": [
+      "classes"
+    ]
+  }
+}
